@@ -63,25 +63,24 @@ All raw datasets are stored inside the **`data/`** directory and ingested into a
 ---
 
 ##  Project Structure
+
+```
 Vendor-Analytics-Project/
 │
-├──
-notebooks/
-│ ├── Exploratory Data Analysis.ipynb
-│ └── Vendor Performance Analysis.ipynb
+├── notebooks/                 # Jupyter notebooks for analysis
+│   ├── Exploratory Data Analysis.ipynb
+│   └── Vendor Performance Analysis.ipynb
 │
-├──
-scripts/
-│ ├── ingestion_db.py
-│ └── get_vendor_summary.py
+├── scripts/                   # Data ingestion & processing scripts
+│   ├── ingestion_db.py
+│   └── get_vendor_summary.py
 │
-├── 
-dashboard/
-│ └── vendor_performance.pbix
+├── dashboard/                 # Power BI dashboard
+│   └── vendor_performance.pbix
 │
-├── 
-README.md
-└── requirements.txt
+├── README.md                  # Project documentation
+└── requirements.txt           # Python dependencies
+```
 
 
 ---
