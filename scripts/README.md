@@ -5,27 +5,27 @@ Analyzing vendor efficiency and profitability to support strategic purchasing an
 ---
 
 ## 📌 Table of Contents
-- Overview  
-- Business Problem  
-- Dataset  
-- Tools & Technologies  
-- Project Structure  
-- Data Cleaning & Preparation  
-- Exploratory Data Analysis (EDA)  
-- Research Questions & Key Findings  
-- Dashboard  
-- How to Run This Project  
-- Final Recommendations  
-- Author & Contact  
+- [Overview](#overview)
+- [Business Problem](#business-problem)
+- [Dataset](#dataset)
+- [Tools & Technologies](#tools--technologies)
+- [Project Structure](#project-structure)
+- [Data Cleaning & Preparation](#data-cleaning--preparation)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Research Questions & Key Findings](#research-questions--key-findings)
+- [Dashboard](#dashboard)
+- [How to Run This Project](#-how-to-run-this-project)
+- [Final Recommendations](#-final-recommendations)
+- [Author & Contact](#-author--contact)
 
 ---
 
-## 📖 Overview
+##  Overview
 This project evaluates vendor performance and retail inventory dynamics to generate strategic insights for purchasing, pricing, and inventory optimization. A complete data pipeline was developed using SQL for ETL operations, Python for data analysis and statistical testing, and Power BI for interactive dashboard visualization.
 
 ---
 
-## 💼 Business Problem
+##  Business Problem
 Retail organizations must optimize vendor selection and inventory strategies to maximize profitability. This project focuses on:
 
 - Identifying underperforming brands requiring promotional or pricing changes  
@@ -36,7 +36,7 @@ Retail organizations must optimize vendor selection and inventory strategies to 
 
 ---
 
-## 📁 Dataset
+##  Dataset
 The dataset consists of multiple CSV files containing:
 
 - Sales Transactions  
@@ -48,7 +48,7 @@ All raw datasets are stored inside the **`data/`** directory and ingested into a
 
 ---
 
-## 🛠 Tools & Technologies
+##  Tools & Technologies
 - **SQL** – CTEs, Joins, Aggregations  
 - **Python**
   - Pandas  
@@ -62,27 +62,31 @@ All raw datasets are stored inside the **`data/`** directory and ingested into a
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 Vendor-Analytics-Project/
 │
-├── notebooks/
+├──
+notebooks/
 │ ├── Exploratory Data Analysis.ipynb
 │ └── Vendor Performance Analysis.ipynb
 │
-├── scripts/
+├──
+scripts/
 │ ├── ingestion_db.py
 │ └── get_vendor_summary.py
 │
-├── dashboard/
+├── 
+dashboard/
 │ └── vendor_performance.pbix
 │
-├── README.md
+├── 
+README.md
 └── requirements.txt
 
 
 ---
 
-## 🧹 Data Cleaning & Preparation
+##  Data Cleaning & Preparation
 The following preprocessing steps were performed:
 
 - Removed transactions with:
@@ -95,9 +99,9 @@ The following preprocessing steps were performed:
 
 ---
 
-## 📈 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
-### 🔍 Key Observations
+###  Key Observations
 
 #### Negative / Zero Values
 - Minimum Gross Profit recorded: **-52,002.78**
@@ -115,7 +119,7 @@ The following preprocessing steps were performed:
 
 ---
 
-## ❓ Research Questions & Key Findings
+## Research Questions & Key Findings
 
 ### 📌 Promotional Opportunities
 - Identified **198 brands** with low sales but high profit margins
@@ -138,7 +142,7 @@ Statistical testing confirmed a significant difference in profit margins between
 
 ---
 
-## 📊 Dashboard
+##  Dashboard
 The Power BI dashboard provides:
 
 - Vendor-wise Sales & Profit Margin Analysis  
@@ -146,7 +150,7 @@ The Power BI dashboard provides:
 - Bulk Purchase Cost Savings Visualization  
 - Vendor Performance Heatmaps  
 
-📂 Dashboard File:
+ Dashboard File:
 dashboard/vendor_performance.pbix
 
 ---
@@ -186,4 +190,5 @@ git clone https://github.com/anisha12167/Vendor-Analytics-Project.git
 Aspiring Data Analyst  
 
 📧 Email: v.saini685@gmail.com
+
 🔗 GitHub: https://github.com/anisha12167
