@@ -1,242 +1,125 @@
-Vendor Performance Analysis
-1. Project Overview
-Vendor Performance Analysis is a data analytics project that evaluates vendor performance using key performance indicators (KPIs) such as on-time delivery, defect rate, lead time, and cost variance. The project uses Python, SQL, and Power BI to clean, analyze, and visualize vendor data to support data-driven decision making.
+# 📊 Vendor Performance Analysis
 
-2. Objectives
-Analyze vendor performance using structured datasets.
+---
 
-Identify high-performing and low-performing vendors.
+## 🚀 Project Overview
+**Vendor Performance Analysis** is a data analytics project that evaluates vendor performance using key performance indicators (KPIs) such as **On-time Delivery, Defect Rate, Lead Time, and Cost Variance**.  
 
-Evaluate delivery efficiency and product quality.
+The project uses **Python, SQL, and Power BI** to clean, analyze, and visualize vendor data to support **data-driven decision making** and improve supplier management.
 
-Generate insights that help organizations improve supply chain management.
+---
 
-3. Technologies Used
-Programming & Query Tools
-Python (Pandas, NumPy) – Data cleaning and preprocessing
+## 🎯 Objectives
 
-SQL – Querying and analyzing structured data
+- Analyze vendor performance using **structured datasets**
+- Identify **high-performing and low-performing vendors**
+- Evaluate **delivery efficiency and product quality**
+- Generate insights to improve **supply chain management**
 
-Visualization Tool
-Power BI – Data visualization and dashboards
+---
 
-Data Source
-Microsoft Excel / CSV datasets
+## 🛠 Technologies Used
 
-4. Dataset
-Dataset Attributes
+### Programming & Data Processing
+- **Python (Pandas, NumPy)** → Data cleaning and preprocessing  
+- **SQL** → Querying and analyzing structured data  
+
+### Visualization
+- **Power BI** → Interactive dashboards and data visualization  
+
+### Data Sources
+- **Excel / CSV datasets**
+
+---
+
+## 📂 Dataset
+
+### Dataset Attributes
+
 The dataset contains vendor-related information including:
 
-Vendor ID
+- Vendor ID  
+- Vendor Name  
+- Delivery Time  
+- Lead Time  
+- Defect Rate  
+- Cost Variance  
+- Order Quantity  
+- Delivery Status  
 
-Vendor Name
+### Data Preparation
 
-Delivery Time
+The dataset was **cleaned, validated, and transformed** to ensure **accuracy and consistency** before performing analysis.
 
-Lead Time
+---
 
-Defect Rate
+## ⚙ Project Workflow
 
-Cost Variance
+### 1️⃣ Data Collection
+Vendor data was collected from **CSV datasets**.
 
-Order Quantity
+### 2️⃣ Data Cleaning
+- Removed missing values  
+- Fixed inconsistent data formats  
+- Performed data validation  
 
-Delivery Status
+### 3️⃣ Data Transformation
+- Processed datasets using **Python and SQL**
+- Structured data for **analytical processing**
 
-Data Preparation
-The data was cleaned and transformed to ensure consistency and accuracy before analysis.
+### 4️⃣ Data Analysis
+- Calculated **Key Performance Indicators (KPIs)**
+- Compared vendor performance metrics
 
-5. Project Workflow
-5.1 Data Collection
-Vendor data collected from CSV datasets.
+### 5️⃣ Data Visualization
+- Built **interactive dashboards in Power BI**
+- Visualized vendor performance trends and comparisons
 
-5.2 Data Cleaning
-Removed missing and inconsistent values.
+---
 
-Standardized column formats.
+## 📈 Key Performance Indicators (KPIs)
 
-Performed data validation.
+Vendor performance was evaluated using:
 
-5.3 Data Transformation
-Processed datasets using Python and SQL.
+- **On-time Delivery Rate**
+- **Defect Rate**
+- **Lead Time**
+- **Cost Variance**
+- **Vendor Reliability Score**
 
-Structured data for analytical processing.
+---
 
-5.4 Data Analysis
-Calculated key performance indicators (KPIs).
+## 🔍 Results and Insights
 
-Compared vendor performance metrics.
+- Identified vendors with **consistent delivery performance**
+- Detected vendors with **high defect rates**
+- Highlighted **cost variations across suppliers**
+- Provided insights to improve **procurement and vendor selection**
 
-5.5 Data Visualization
-Built interactive dashboards using Power BI.
+---
 
-Visualized vendor comparisons and trends.
+## 📊 Dashboard Features
 
-6. Key Performance Indicators (KPIs)
-The project evaluates vendors based on the following metrics:
+The **Power BI Dashboard** includes:
 
-On-time Delivery Rate
+- Vendor performance comparison  
+- KPI summary metrics  
+- Delivery performance analysis  
+- Cost analysis  
+- Vendor ranking visualization  
 
-Defect Rate
+---
 
-Lead Time
+## 🔮 Future Improvements
 
-Cost Variance
+- Integration with **real-time supply chain data**
+- Implementation of **predictive analytics models**
+- Automated **ETL pipelines for continuous data updates**
 
-Vendor Reliability Score
+---
 
-7. Results and Insights
-Identified vendors with consistent delivery performance.
+## 👩‍💻 Author
 
-Detected vendors with high defect rates.
-
-Highlighted cost variations across suppliers.
-
-Provided insights to improve procurement and vendor selection.
-
-8. Dashboard Features
-The Power BI dashboard includes:
-
-Vendor performance comparison
-
-KPI summary metrics
-
-Delivery performance analysis
-
-Cost analysis
-
-Vendor ranking
-
-9. Future Improvements
-Integration with real-time supply chain data.
-
-Implementation of predictive models for vendor risk prediction.
-
-Automated ETL pipelines for continuous data updates.
-
-10. Author
-Anisha Saini
-B.E Computer Science Engineering
+**Anisha Saini**  
+B.E Computer Science Engineering  
 Chandigarh University
-
-Vendor Performance Analysis
-1. Project Overview
-Vendor Performance Analysis is a data analytics project that evaluates vendor performance using key performance indicators (KPIs) such as on-time delivery, defect rate, lead time, and cost variance. The project uses Python, SQL, and Power BI to clean, analyze, and visualize vendor data to support data-driven decision making.
-
-2. Objectives
-Analyze vendor performance using structured datasets.
-
-Identify high-performing and low-performing vendors.
-
-Evaluate delivery efficiency and product quality.
-
-Generate insights that help organizations improve supply chain management.
-
-3. Technologies Used
-Programming & Query Tools
-Python (Pandas, NumPy) – Data cleaning and preprocessing
-
-SQL – Querying and analyzing structured data
-
-Visualization Tool
-Power BI – Data visualization and dashboards
-
-Data Source
-Microsoft Excel / CSV datasets
-
-4. Dataset
-Dataset Attributes
-The dataset contains vendor-related information including:
-
-Vendor ID
-
-Vendor Name
-
-Delivery Time
-
-Lead Time
-
-Defect Rate
-
-Cost Variance
-
-Order Quantity
-
-Delivery Status
-
-Data Preparation
-The data was cleaned and transformed to ensure consistency and accuracy before analysis.
-
-5. Project Workflow
-5.1 Data Collection
-Vendor data collected from CSV datasets.
-
-5.2 Data Cleaning
-Removed missing and inconsistent values.
-
-Standardized column formats.
-
-Performed data validation.
-
-5.3 Data Transformation
-Processed datasets using Python and SQL.
-
-Structured data for analytical processing.
-
-5.4 Data Analysis
-Calculated key performance indicators (KPIs).
-
-Compared vendor performance metrics.
-
-5.5 Data Visualization
-Built interactive dashboards using Power BI.
-
-Visualized vendor comparisons and trends.
-
-6. Key Performance Indicators (KPIs)
-The project evaluates vendors based on the following metrics:
-
-On-time Delivery Rate
-
-Defect Rate
-
-Lead Time
-
-Cost Variance
-
-Vendor Reliability Score
-
-7. Results and Insights
-Identified vendors with consistent delivery performance.
-
-Detected vendors with high defect rates.
-
-Highlighted cost variations across suppliers.
-
-Provided insights to improve procurement and vendor selection.
-
-8. Dashboard Features
-The Power BI dashboard includes:
-
-Vendor performance comparison
-
-KPI summary metrics
-
-Delivery performance analysis
-
-Cost analysis
-
-Vendor ranking
-
-9. Future Improvements
-Integration with real-time supply chain data.
-
-Implementation of predictive models for vendor risk prediction.
-
-Automated ETL pipelines for continuous data updates.
-
-10. Author
-Anisha Saini
-B.E Computer Science Engineering
-Chandigarh University
-
